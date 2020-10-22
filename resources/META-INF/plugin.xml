@@ -3,6 +3,7 @@
   <name>Simple.org</name>
   <version>0.3.0</version>
   <vendor email="hari@simple.org" url="https://www.obvious.in">Obvious</vendor>
+  <depends>com.intellij.modules.platform</depends>
 
   <description><![CDATA[
       Additional tooling for the Simple Android project
