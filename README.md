@@ -25,7 +25,7 @@ To make changes and release a new version of the plugin, do the following.
      - Then select `IntelliJ IDEA IU-xxx.xxxx.xx` from Project SDK on the right pane
      - Click on `Next`
    - In the next screen click on the `…` icon to select the `Project location`,
-     - Point to `[simple-android]/tooling/intellij-plugin`
+     - Point to `simple-android-idea-plugin`
      - Click on `Finish`
      - If a `File Already Exists` dialog shows up, click on `Yes` to overwrite the `.iml` file
    - One the IDE opens the project, do a `git reset --hard` (this is hacky, but we'll update this once we find a solution)
@@ -34,4 +34,4 @@ To make changes and release a new version of the plugin, do the following.
 4. Update `CHANGELOG.md` to mention the changes that were made.
 5. Go to `Build → Prepare Plugin Module for Deployment`.
    - This will generate a `intellij-plugin.jar` in the project's root directory
-   - Move this generated jar into the `releases` directory and rename the file to the following format - `yyyy-mm-dd.jar`
+   - Don't push the generated jar to Git. Instead make a release on GitHub with the changelog

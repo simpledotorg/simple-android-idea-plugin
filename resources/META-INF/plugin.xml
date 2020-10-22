@@ -1,8 +1,9 @@
 <idea-plugin>
   <id>org.simple.intellij</id>
   <name>Simple.org</name>
-  <version>0.3.0</version>
+  <version>0.3.1</version>
   <vendor email="hari@simple.org" url="https://www.obvious.in">Obvious</vendor>
+  <depends>com.intellij.modules.platform</depends>
 
   <description><![CDATA[
       Additional tooling for the Simple Android project
@@ -10,13 +11,14 @@
 
   <change-notes><![CDATA[
       <ul>
-        <li>Add a <code>uuid()</code> function expression for use in Live Templates</li>
+        <li>Add <code>depends</code> on Intellij platform</li>
+        <li>Bump Idea version</li>
       </ul>
     ]]>
   </change-notes>
 
   <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
-  <idea-version since-build="173.0"/>
+  <idea-version since-build="201"/>
 
   <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
        on how to target different products -->
