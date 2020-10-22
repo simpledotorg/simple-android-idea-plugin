@@ -1,7 +1,7 @@
 <idea-plugin>
   <id>org.simple.intellij</id>
   <name>Simple.org</name>
-  <version>0.3.0</version>
+  <version>0.3.1</version>
   <vendor email="hari@simple.org" url="https://www.obvious.in">Obvious</vendor>
   <depends>com.intellij.modules.platform</depends>
 
@@ -11,7 +11,8 @@
 
   <change-notes><![CDATA[
       <ul>
-        <li>Add a <code>uuid()</code> function expression for use in Live Templates</li>
+        <li>Add <code>depends</code> on Intellij platform</li>
+        <li>Bump Idea version</li>
       </ul>
     ]]>
   </change-notes>
